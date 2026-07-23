@@ -16,11 +16,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 TOKEN = os.getenv("DISCORD_TOKEN")
-GUILD_ID = int(os.getenv("GUILD_ID", "1517815722741596190"))
+GUILD_ID = int(os.getenv("GUILD_ID", "EDITROLEID"))
 OWNER_ID = int(os.getenv("OWNER_ID", "0"))
-OWNER_ROLE_ID = int(os.getenv("OWNER_ROLE_ID", "1527797562428620950"))
-LOG_CHANNEL_ID = int(os.getenv("LOG_CHANNEL_ID", "1529071148481118228"))
-QUARANTINE_ROLE_ID = int(os.getenv("QUARANTINE_ROLE_ID", "1529071246246019093"))
+OWNER_ROLE_ID = int(os.getenv("OWNER_ROLE_ID", "EDITROLEID"))
+LOG_CHANNEL_ID = int(os.getenv("LOG_CHANNEL_ID", "EDITROLEID"))
+QUARANTINE_ROLE_ID = int(os.getenv("QUARANTINE_ROLE_ID", "EDITROLEID"))
 
 
 DATA_DIR = Path("data")
